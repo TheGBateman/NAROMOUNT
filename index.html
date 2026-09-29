@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="meta.title">NAROMOUNT — Events · Retail · Exhibitions · Installation</title>
+  
+  <!-- SEO & Social Meta -->
+  <meta name="description" content="Professional installation, event and logistics teams for retail, exhibitions, events and commercial spaces. Barcelona · Spain · Europe.">
+  <meta name="theme-color" content="#0B0B0B">
+  <meta property="og:title" content="NAROMOUNT — Events · Retail · Exhibitions · Installation">
+  <meta property="og:description" content="Professional installation, event and logistics teams for retail, exhibitions, events and commercial spaces. Barcelona · Spain · Europe.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://naromount.com">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+  <!-- Contemporary Google Fonts: Space Grotesk, Inter & Space Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Accessible Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- ========================================================================
+       HEADER & NAVIGATION (NAROMOUNT V1)
+       ======================================================================== -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      
+      <!-- Brand Logo & Descriptor -->
+      <a href="#" class="brand" aria-label="NAROMOUNT Home">
+        <span class="brand-logo-text">
+          NAROMOUNT
+          <span class="brand-dot" aria-hidden="true"></span>
+        </span>
+        <span class="brand-descriptor" data-i18n="hero.descriptor">EVENTS · RETAIL · EXHIBITIONS · INSTALLATION</span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-desktop" aria-label="Main Navigation">
+        <a href="#services" class="nav-link" data-i18n="nav.services">Services</a>
+        <a href="#sectors" class="nav-link" data-i18n="nav.sectors">Sectors</a>
+        <a href="#why-naromount" class="nav-link" data-i18n="nav.why">Why NAROMOUNT</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <!-- Actions: Language Selector & Primary CTA -->
+      <div class="header-actions">
+        <!-- Language Switcher: ES / EN -->
+        <div class="lang-selector" role="group" aria-label="Language selection">
+          <button type="button" class="lang-btn active" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-lang="es" aria-pressed="false">ES</button>
+        </div>
+
+        <!-- Header CTA (Real Mailto Booking) -->
+        <a href="mailto:gero@naromount.com?subject=Team%20Request%20%E2%80%94%20NAROMOUNT" class="btn btn-primary btn-sm header-cta-btn" data-i18n="nav.request">Request a Team</a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button type="button" class="mobile-menu-toggle" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-nav" class="mobile-nav-drawer" role="dialog" aria-modal="true" aria-label="Mobile Navigation">
+      <ul class="mobile-nav-list">
+        <li><a href="#services" data-i18n="nav.services">Services</a></li>
+        <li><a href="#sectors" data-i18n="nav.sectors">Sectors</a></li>
+        <li><a href="#why-naromount" data-i18n="nav.why">Why NAROMOUNT</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <div class="mobile-nav-cta">
+        <a href="mailto:gero@naromount.com?subject=Team%20Request%20%E2%80%94%20NAROMOUNT" class="btn btn-accent" style="width: 100%;" data-i18n="nav.request">Request a Team</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================================================
+       MAIN CONTENT
+       ======================================================================== -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text Content -->
+          <div class="hero-content">
+            <div class="hero-meta-bar">
+              <span class="hero-badge-tag">NAROMOUNT</span>
+              <span data-i18n="hero.descriptor">EVENTS · RETAIL · EXHIBITIONS · INSTALLATION</span>
+            </div>
+
+            <h1 id="hero-title" class="hero-title" data-i18n="hero.title">
+              Professional teams<br>for real projects.
+            </h1>
+
+            <p class="hero-subtitle" data-i18n="hero.subtitle">
+              NAROMOUNT is a professional company providing installation, assembly and operational support teams for retail, exhibitions, events and commercial spaces.
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="mailto:gero@naromount.com?subject=Team%20Request%20%E2%80%94%20NAROMOUNT" class="btn btn-accent" data-i18n="hero.ctaPrimary">Request a Team</a>
+              <a href="mailto:hello@naromount.com?subject=Inquiry%20%E2%80%94%20NAROMOUNT" class="btn btn-secondary" data-i18n="hero.ctaSecondary">Contact</a>
+            </div>
+
+            <div class="hero-base-note">
+              <span class="dot" aria-hidden="true"></span>
+              <span data-i18n="hero.base">Base: Barcelona · Spain · Coverage: Europe</span>
+            </div>
+          </div>
+
+          <!-- Hero Photography Placeholder (Visual Editorial Asset) -->
+          <div class="hero-media-wrapper">
+            <img 
+              src="assets/images/hero-installation.jpg" 
+              alt="Installation specialist working on architectural display structure" 
+              class="hero-image"
+              width="1000"
+              height="750"
+              fetchpriority="high"
+            >
+            <div class="hero-media-caption">
+              <span class="hero-caption-spec" data-i18n="hero.mediaSpec">On-site Installation &amp; Logistics</span>
+              <span class="hero-caption-tag" data-i18n="hero.mediaTag">OPERATIONAL CREW</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION (Definitive 5 Crews Architecture) -->
+    <section class="services-section" id="services" aria-labelledby="services-title">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-label" data-i18n="services.label">Architecture</span>
+          <h2 id="services-title" class="section-title" data-i18n="services.title">Services</h2>
+        </div>
+
+        <div class="services-grid">
+          
+          <!-- 01 INSTALLATION CREW -->
+          <div class="service-card">
+            <div class="service-card-top">
+              <span class="service-index">01</span>
+              <span class="service-mark" aria-hidden="true"></span>
+            </div>
+            <div class="service-card-content">
+              <h3 class="service-title" data-i18n="services.s1.title">INSTALLATION CREW</h3>
+              <p class="service-desc" data-i18n="services.s1.desc">Assembly · dismantling · installation</p>
+            </div>
+          </div>
+
+          <!-- 02 EVENT CREW -->
+          <div class="service-card">
+            <div class="service-card-top">
+              <span class="service-index">02</span>
+              <span class="service-mark" aria-hidden="true"></span>
+            </div>
+            <div class="service-card-content">
+              <h3 class="service-title" data-i18n="services.s2.title">EVENT CREW</h3>
+              <p class="service-desc" data-i18n="services.s2.desc">Operational staff · production · support</p>
+            </div>
+          </div>
+
+          <!-- 03 LOGISTICS CREW -->
+          <div class="service-card">
+            <div class="service-card-top">
+              <span class="service-index">03</span>
+              <span class="service-mark" aria-hidden="true"></span>
+            </div>
+            <div class="service-card-content">
+              <h3 class="service-title" data-i18n="services.s3.title">LOGISTICS CREW</h3>
+              <p class="service-desc" data-i18n="services.s3.desc">Loading · unloading · preparation · movement</p>
+            </div>
+          </div>
+
+          <!-- 04 PROJECT CREW -->
+          <div class="service-card">
+            <div class="service-card-top">
+              <span class="service-index">04</span>
+              <span class="service-mark" aria-hidden="true"></span>
+            </div>
+            <div class="service-card-content">
+              <h3 class="service-title" data-i18n="services.s4.title">PROJECT CREW</h3>
+              <p class="service-desc" data-i18n="services.s4.desc">Teams adapted to each project</p>
+            </div>
+          </div>
+
+          <!-- 05 ROLLOUT CREW -->
+          <div class="service-card">
+            <div class="service-card-top">
+              <span class="service-index">05</span>
+              <span class="service-mark" aria-hidden="true"></span>
+            </div>
+            <div class="service-card-content">
+              <h3 class="service-title" data-i18n="services.s5.title">ROLLOUT CREW</h3>
+              <p class="service-desc" data-i18n="services.s5.desc">Multi-location implementation</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SECTORS SECTION (WHERE WE WORK) -->
+    <section class="sectors-section" id="sectors" aria-labelledby="sectors-title">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-label" data-i18n="sectors.label">Scope</span>
+          <h2 id="sectors-title" class="section-title" data-i18n="sectors.title">Where We Work</h2>
+        </div>
+
+        <div class="sectors-layout">
+          
+          <!-- 4 Modular Sectors Blocks -->
+          <div class="sectors-grid">
+            
+            <div class="sector-block">
+              <h3 class="sector-name" data-i18n="sectors.retail.title">Retail</h3>
+              <p class="sector-detail" data-i18n="sectors.retail.desc">Stores · Rollouts · Shopfitting</p>
+            </div>
+
+            <div class="sector-block">
+              <h3 class="sector-name" data-i18n="sectors.exhibitions.title">Exhibitions</h3>
+              <p class="sector-detail" data-i18n="sectors.exhibitions.desc">Stands · Fairs · Congresses</p>
+            </div>
+
+            <div class="sector-block">
+              <h3 class="sector-name" data-i18n="sectors.events.title">Events</h3>
+              <p class="sector-detail" data-i18n="sectors.events.desc">Corporate · Brand · Production</p>
+              <p class="sector-clarification" data-i18n="sectors.events.note">NAROMOUNT provides operational staff and installation teams for event projects.</p>
+            </div>
+
+            <div class="sector-block">
+              <h3 class="sector-name" data-i18n="sectors.spaces.title">Commercial Spaces</h3>
+              <p class="sector-detail" data-i18n="sectors.spaces.desc">Showrooms · Offices · Commercial spaces</p>
+            </div>
+
+          </div>
+
+          <!-- Editorial Photography Accent -->
+          <div class="sectors-media-feature">
+            <img 
+              src="assets/images/sectors-retail.jpg" 
+              alt="Retail shopfitting and architectural display installation in progress" 
+              class="sectors-image"
+              width="800"
+              height="600"
+              loading="lazy"
+            >
+            <div class="sectors-overlay-badge" data-i18n="sectors.badge">European Project Coverage</div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- WHY NAROMOUNT SECTION (Concrete Operational Pillars) -->
+    <section class="why-section" id="why-naromount" aria-labelledby="why-title">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-label" data-i18n="why.label">Execution</span>
+          <h2 id="why-title" class="section-title" data-i18n="why.title">Why NAROMOUNT</h2>
+        </div>
+
+        <div class="why-grid">
+          
+          <!-- Pillar 1 -->
+          <div class="why-card">
+            <div class="why-card-bar" aria-hidden="true"></div>
+            <h3 class="why-title" data-i18n="why.card1.title">Flexible Teams</h3>
+            <p class="why-desc" data-i18n="why.card1.desc">Team size and composition adapts to each project's requirements.</p>
+          </div>
+
+          <!-- Pillar 2 -->
+          <div class="why-card">
+            <div class="why-card-bar" aria-hidden="true"></div>
+            <h3 class="why-title" data-i18n="why.card2.title">One Contact</h3>
+            <p class="why-desc" data-i18n="why.card2.desc">One point of contact to coordinate work on-site.</p>
+          </div>
+
+          <!-- Pillar 3 -->
+          <div class="why-card">
+            <div class="why-card-bar" aria-hidden="true"></div>
+            <h3 class="why-title" data-i18n="why.card3.title">Execution Capacity</h3>
+            <p class="why-desc" data-i18n="why.card3.desc">Proven capacity in assembly, dismantling and technical installation.</p>
+          </div>
+
+          <!-- Pillar 4 -->
+          <div class="why-card">
+            <div class="why-card-bar" aria-hidden="true"></div>
+            <h3 class="why-title" data-i18n="why.card4.title">Crew Reinforcement</h3>
+            <p class="why-desc" data-i18n="why.card4.desc">Operational support when existing client teams require extra capacity.</p>
+          </div>
+
+          <!-- Pillar 5 -->
+          <div class="why-card">
+            <div class="why-card-bar" aria-hidden="true"></div>
+            <h3 class="why-title" data-i18n="why.card5.title">Advance Coordination</h3>
+            <p class="why-desc" data-i18n="why.card5.desc">Direct project briefing and schedule coordination before deployment.</p>
+          </div>
+
+          <!-- Pillar 6 -->
+          <div class="why-card highlight">
+            <div class="why-card-bar" aria-hidden="true"></div>
+            <h3 class="why-title" data-i18n="why.card6.title">Organized Execution</h3>
+            <p class="why-desc" data-i18n="why.card6.desc">Organized execution on-site or at the retail space.</p>
+          </div>
+
+        </div>
+
+        <!-- Geographic Scope Callout Box (Base vs. Reach) -->
+        <div class="scope-callout-box">
+          <div>
+            <span class="scope-item-title" data-i18n="why.scope.baseTitle">Operational Base</span>
+            <div class="scope-item-headline" data-i18n="why.scope.baseText">Barcelona · Spain</div>
+            <p class="scope-item-desc" data-i18n="why.scope.baseDesc">Coordination desk and planning center for team scheduling and project logistics.</p>
+          </div>
+          <div>
+            <span class="scope-item-title" data-i18n="why.scope.reachTitle">Geographic Scope</span>
+            <div class="scope-item-headline" data-i18n="why.scope.reachText">Barcelona · Spain · Europe</div>
+            <p class="scope-item-desc" data-i18n="why.scope.reachDesc">Deployment across Spain and European venues depending on project scope, logistics and budget. Coordinated from Barcelona. No permanent foreign infrastructure.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FINAL HIGH-IMPACT CTA SECTION -->
+    <section class="final-cta-section" id="final-cta" aria-labelledby="cta-headline">
+      <div class="container">
+        <div class="final-cta-content">
+          <h2 id="cta-headline" class="final-cta-headline" data-i18n="final.title">Need a team?</h2>
+          <p class="final-cta-subtext" data-i18n="final.subtitle">Tell us what you need, where and when.</p>
+          <div class="final-cta-actions">
+            <a href="mailto:gero@naromount.com?subject=Team%20Request%20%E2%80%94%20NAROMOUNT" class="btn btn-secondary-light" data-i18n="final.cta">Request a Team</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION (Real Channels & Mailto-Assisted Form) -->
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        
+        <div class="contact-grid">
+          
+          <!-- Left: Direct Channels & Operational Parameters -->
+          <div class="contact-info-panel">
+            <div>
+              <span class="section-label" data-i18n="contact.label">Direct Channels</span>
+              <h2 id="contact-title" class="section-title" data-i18n="contact.title">Direct Coordination</h2>
+              <p class="contact-intro-text" data-i18n="contact.intro">
+                Direct communication for team bookings and operational planning. Contact our coordination desk directly by email or submit your project scope below.
+              </p>
+
+              <!-- Real Direct Email Action Cards -->
+              <div class="contact-direct-channels">
+                <a href="mailto:gero@naromount.com?subject=Team%20Request%20%E2%80%94%20NAROMOUNT" class="contact-channel-card">
+                  <div class="contact-channel-header">
+                    <span class="contact-channel-badge" data-i18n="contact.cardBookingBadge">Team Bookings</span>
+                    <span style="font-size: 0.85rem; font-weight: 700; color: var(--color-accent);" aria-hidden="true">↗</span>
+                  </div>
+                  <span class="contact-channel-email">gero@naromount.com</span>
+                  <p class="contact-channel-desc" data-i18n="contact.cardBookingDesc">Direct contact for crew requests, staffing requirements and team scheduling.</p>
+                </a>
+
+                <a href="mailto:hello@naromount.com?subject=Inquiry%20%E2%80%94%20NAROMOUNT" class="contact-channel-card">
+                  <div class="contact-channel-header">
+                    <span class="contact-channel-badge" data-i18n="contact.cardGeneralBadge">Operations Desk</span>
+                    <span style="font-size: 0.85rem; font-weight: 700; color: var(--color-accent);" aria-hidden="true">↗</span>
+                  </div>
+                  <span class="contact-channel-email">hello@naromount.com</span>
+                  <p class="contact-channel-desc" data-i18n="contact.cardGeneralDesc">General inquiries, administration and operational coordination.</p>
+                </a>
+              </div>
+
+              <!-- Operational Parameters -->
+              <div class="operational-specs-box">
+                <div class="spec-line">
+                  <span class="spec-label" data-i18n="contact.specBaseLabel">Operational Base</span>
+                  <span class="spec-value" data-i18n="contact.specBaseVal">Barcelona · Spain</span>
+                </div>
+                <div class="spec-line">
+                  <span class="spec-label" data-i18n="contact.specScopeLabel">Deployment Scope</span>
+                  <span class="spec-value" data-i18n="contact.specScopeVal">Barcelona · Spain · Europe (by project, logistics &amp; budget)</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-notice-box" data-i18n="contact.notice">
+              Direct coordination desk for professional installation, event and logistics teams.
+            </div>
+          </div>
+
+          <!-- Right: Mailto-Assisted Project Request Form -->
+          <div class="request-form-card">
+            <div class="form-header">
+              <h3 class="form-title" data-i18n="form.title">Project Request Form</h3>
+              <p class="form-subtext" data-i18n="form.subtext">Provide your project requirements. Submitting generates an email draft directly to gero@naromount.com.</p>
+            </div>
+
+            <form id="teamRequestForm" novalidate>
+              <div class="form-grid">
+                
+                <div class="form-group">
+                  <label for="req-name" class="form-label" data-i18n="form.name">Your Name / Company</label>
+                  <input type="text" id="req-name" name="name" class="form-input" placeholder="e.g. Maria Gonzalez / Brand Corp" data-i18n-placeholder="form.namePlaceholder" required>
+                </div>
+
+                <div class="form-grid-2col">
+                  <div class="form-group">
+                    <label for="req-email" class="form-label" data-i18n="form.email">Email Address</label>
+                    <input type="email" id="req-email" name="email" class="form-input" placeholder="name@company.com" data-i18n-placeholder="form.emailPlaceholder" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="req-phone" class="form-label" data-i18n="form.phone">Phone Number</label>
+                    <input type="tel" id="req-phone" name="phone" class="form-input" placeholder="e.g. +34 ..." data-i18n-placeholder="form.phonePlaceholder">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="req-service" class="form-label" data-i18n="form.service">Required Crew / Service</label>
+                  <select id="req-service" name="service" class="form-select" required>
+                    <option value="" disabled selected data-i18n="form.optSelect">Select crew type...</option>
+                    <option value="INSTALLATION CREW" data-i18n="form.optS1">INSTALLATION CREW — Assembly · dismantling · installation</option>
+                    <option value="EVENT CREW" data-i18n="form.optS2">EVENT CREW — Operational staff · production · support</option>
+                    <option value="LOGISTICS CREW" data-i18n="form.optS3">LOGISTICS CREW — Loading · unloading · preparation · movement</option>
+                    <option value="PROJECT CREW" data-i18n="form.optS4">PROJECT CREW — Teams adapted to each project</option>
+                    <option value="ROLLOUT CREW" data-i18n="form.optS5">ROLLOUT CREW — Multi-location implementation</option>
+                    <option value="OTHER" data-i18n="form.optOther">Other operational requirement (describe in scope below)</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="req-location" class="form-label" data-i18n="form.location">Location &amp; Schedule (Where &amp; When)</label>
+                  <input type="text" id="req-location" name="location" class="form-input" placeholder="e.g. Fira Barcelona, Oct 14–18" data-i18n-placeholder="form.locationPlaceholder" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="req-message" class="form-label" data-i18n="form.message">Project Scope &amp; Notes</label>
+                  <textarea id="req-message" name="message" class="form-textarea" placeholder="Describe the scope, team size needed, venue, or specific requirements..." data-i18n-placeholder="form.messagePlaceholder"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-accent" style="width: 100%; margin-top: 0.5rem;" data-i18n="form.submit">
+                  Submit Request to gero@naromount.com
+                </button>
+
+              </div>
+
+              <!-- Feedback / Email Client Notice Container -->
+              <div id="formFeedback" class="form-feedback" role="alert"></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================
+       FOOTER (NAROMOUNT V1)
+       ======================================================================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      
+      <div class="footer-top">
+        
+        <!-- Brand Information -->
+        <div class="footer-brand">
+          <div class="footer-logo-text">
+            NAROMOUNT
+            <span class="brand-dot" aria-hidden="true"></span>
+          </div>
+          <p class="footer-descriptor" data-i18n="footer.descriptor">EVENTS · RETAIL · EXHIBITIONS · INSTALLATION</p>
+          <div class="footer-base-box">
+            <span data-i18n="footer.base">Base: Barcelona · Spain · Europe</span>
+          </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div>
+          <h4 class="footer-column-title" data-i18n="footer.colNav">Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#services" data-i18n="nav.services">Services</a></li>
+            <li><a href="#sectors" data-i18n="nav.sectors">Sectors</a></li>
+            <li><a href="#why-naromount" data-i18n="nav.why">Why NAROMOUNT</a></li>
+            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Architecture Links -->
+        <div>
+          <h4 class="footer-column-title" data-i18n="footer.colArch">Architecture</h4>
+          <ul class="footer-links">
+            <li><a href="#services">INSTALLATION CREW</a></li>
+            <li><a href="#services">EVENT CREW</a></li>
+            <li><a href="#services">LOGISTICS CREW</a></li>
+            <li><a href="#services">PROJECT CREW</a></li>
+            <li><a href="#services">ROLLOUT CREW</a></li>
+          </ul>
+        </div>
+
+        <!-- Direct Contact Column -->
+        <div>
+          <h4 class="footer-column-title" data-i18n="footer.colContact">Direct Contact</h4>
+          <ul class="footer-links">
+            <li><a href="mailto:hello@naromount.com" style="color: var(--color-white); font-weight: 600;">hello@naromount.com</a></li>
+            <li><a href="mailto:gero@naromount.com" style="color: var(--color-accent); font-weight: 600;">gero@naromount.com</a></li>
+            <li style="margin-top: 0.5rem; font-size: 0.82rem; color: var(--color-grey-400);" data-i18n="hero.base">Base: Barcelona · Spain · Coverage: Europe</li>
+          </ul>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          &copy; 2026 NAROMOUNT. <span data-i18n="footer.rights">All rights reserved. Professional installation, event &amp; logistics teams.</span>
+        </div>
+        <div class="footer-status-pill">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          <span data-i18n="footer.statusScope">Barcelona · Spain · Europe</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

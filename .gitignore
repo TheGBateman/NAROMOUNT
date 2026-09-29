@@ -1,0 +1,21 @@
+# Documents and drafts
+*.pdf
+*.docx
+*.doc
+*.xlsx
+*.xls
+COMMERCIAL/
+
+# System & temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*preview*
+test*
+
+# Editor & AI tool artifacts
+.system_generated/
+.gemini/
+.idea/
+.vscode/
