@@ -9,8 +9,8 @@
   // --- Translation Dictionary (Definitive Content Foundation) ---
   const i18nData = {
     en: {
-      "meta.title": "NAROMOUNT — Events · Retail · Exhibitions · Installation",
-      "meta.description": "Professional installation, event and logistics teams for retail, exhibitions, events and commercial spaces. Barcelona · Spain · Europe.",
+      "meta.title": "NAROMOUNT — Installation, Retail Shopfitting & Exhibition Crew | Barcelona",
+      "meta.description": "Professional crews for retail shopfitting, exhibition stand assembly, events and commercial logistics. Based in Barcelona, deploying across Spain and Europe.",
 
       "nav.services": "Services",
       "nav.sectors": "Sectors",
@@ -20,37 +20,37 @@
 
       "hero.descriptor": "EVENTS · RETAIL · EXHIBITIONS · INSTALLATION",
       "hero.title": "Professional teams<br>for real projects.",
-      "hero.subtitle": "NAROMOUNT is a professional company providing installation, assembly and operational support teams for retail, exhibitions, events and commercial spaces.",
+      "hero.subtitle": "NAROMOUNT provides professional installation, assembly and operational support teams for retail shopfitting, exhibition stands, corporate events and commercial spaces. Coordinated from Barcelona for project deployments across Spain and Europe.",
       "hero.ctaPrimary": "Request a Team",
       "hero.ctaSecondary": "Contact",
-      "hero.base": "Base: Barcelona · Spain · Coverage: Europe",
+      "hero.base": "Base: Barcelona · Operational Deployment: Spain & Europe",
       "hero.mediaTag": "OPERATIONAL CREW",
-      "hero.mediaSpec": "On-site Installation & Logistics",
+      "hero.mediaSpec": "On-site Installation & Logistics Support",
 
       "services.label": "Architecture",
       "services.title": "Services",
       "services.s1.title": "INSTALLATION CREW",
-      "services.s1.desc": "Assembly · dismantling · installation",
+      "services.s1.desc": "Retail shopfitting · commercial displays · architectural fixtures · technical assembly & dismantling",
       "services.s2.title": "EVENT CREW",
-      "services.s2.desc": "Operational staff · production · support",
+      "services.s2.desc": "Operational staff · exhibition stand support · venue installation · event production crew",
       "services.s3.title": "LOGISTICS CREW",
-      "services.s3.desc": "Loading · unloading · preparation · movement",
+      "services.s3.desc": "Loading & unloading · material handling · site staging · installation logistics",
       "services.s4.title": "PROJECT CREW",
-      "services.s4.desc": "Teams adapted to each project",
+      "services.s4.desc": "Dedicated installation teams adapted to technical complexity, scheduling and venue requirements",
       "services.s5.title": "ROLLOUT CREW",
-      "services.s5.desc": "Multi-location implementation",
+      "services.s5.desc": "Multi-location retail rollouts · brand implementations · synchronized installation schedules",
 
       "sectors.label": "Scope",
       "sectors.title": "Where We Work",
       "sectors.retail.title": "Retail",
-      "sectors.retail.desc": "Stores · Rollouts · Shopfitting",
+      "sectors.retail.desc": "Flagship stores · retail rollouts · shopfitting & commercial fixtures",
       "sectors.exhibitions.title": "Exhibitions",
-      "sectors.exhibitions.desc": "Stands · Fairs · Congresses",
+      "sectors.exhibitions.desc": "Trade fair stands · congress booths · assembly & dismantling at Fira Barcelona & European venues",
       "sectors.events.title": "Events",
-      "sectors.events.desc": "Corporate · Brand · Production",
-      "sectors.events.note": "NAROMOUNT provides operational staff and installation teams for event projects.",
+      "sectors.events.desc": "Corporate conventions · brand pop-ups · event installation & operational crew",
+      "sectors.events.note": "NAROMOUNT provides operational crew and installation specialists for event and exhibition projects.",
       "sectors.spaces.title": "Commercial Spaces",
-      "sectors.spaces.desc": "Showrooms · Offices · Commercial spaces",
+      "sectors.spaces.desc": "Showrooms · corporate offices · commercial interior fit-outs & display installations",
       "sectors.badge": "European Project Coverage",
 
       "why.label": "Execution",
@@ -70,10 +70,10 @@
 
       "why.scope.baseTitle": "Operational Base",
       "why.scope.baseText": "Barcelona · Spain",
-      "why.scope.baseDesc": "Coordination desk and planning center for team scheduling and project logistics.",
+      "why.scope.baseDesc": "Strategic coordination desk in Barcelona managing crew scheduling, project briefing and installation logistics.",
       "why.scope.reachTitle": "Geographic Scope",
       "why.scope.reachText": "Barcelona · Spain · Europe",
-      "why.scope.reachDesc": "Deployment across Spain and European venues depending on project scope, logistics and budget. Coordinated from Barcelona. No permanent foreign infrastructure.",
+      "why.scope.reachDesc": "Project-based team deployment across Catalonia, Spain and major European exhibition and retail hubs. Coordinated directly from Barcelona with no permanent foreign overhead.",
 
       "final.title": "Need a team?",
       "final.subtitle": "Tell us what you need, where and when.",
@@ -130,8 +130,8 @@
       "footer.statusScope": "Barcelona · Spain · Europe"
     },
     es: {
-      "meta.title": "NAROMOUNT — Events · Retail · Exhibitions · Installation",
-      "meta.description": "Equipos profesionales de montaje, eventos y logística para retail, ferias, eventos y espacios comerciales. Barcelona · España · Europa.",
+      "meta.title": "NAROMOUNT — Montaje de Stands, Retail e Instalación Comercial | Barcelona",
+      "meta.description": "Equipos profesionales de montaje para retail, shopfitting, stands en ferias, eventos y logística comercial. Base en Barcelona con despliegue en España y Europa.",
 
       "nav.services": "Servicios",
       "nav.sectors": "Sectores",
@@ -141,37 +141,37 @@
 
       "hero.descriptor": "EVENTOS · RETAIL · FERIAS · INSTALACIÓN",
       "hero.title": "Equipos profesionales<br>para proyectos reales.",
-      "hero.subtitle": "NAROMOUNT es una empresa profesional de equipos de montaje, instalación y apoyo operativo para retail, exposiciones, eventos y espacios comerciales.",
+      "hero.subtitle": "NAROMOUNT proporciona equipos profesionales de montaje, instalación técnica y apoyo operativo para retail y shopfitting, ferias y stands, eventos corporativos y espacios comerciales. Coordinación desde Barcelona para proyectos en España y Europa.",
       "hero.ctaPrimary": "Pedir un Equipo",
       "hero.ctaSecondary": "Contactar",
-      "hero.base": "Base: Barcelona · España · Cobertura: Europa",
+      "hero.base": "Base operativa: Barcelona · Despliegue en proyectos: España y Europa",
       "hero.mediaTag": "EQUIPOS OPERATIVOS",
-      "hero.mediaSpec": "Montaje en obra y apoyo operativo",
+      "hero.mediaSpec": "Montaje técnico en obra y apoyo logístico",
 
       "services.label": "Arquitectura",
       "services.title": "Servicios",
       "services.s1.title": "INSTALLATION CREW",
-      "services.s1.desc": "Montaje · desmontaje · instalación técnica",
+      "services.s1.desc": "Montaje de retail y shopfitting · mobiliario comercial · estructuras y desmontaje técnico",
       "services.s2.title": "EVENT CREW",
-      "services.s2.desc": "Personal operativo · producción · apoyo",
+      "services.s2.desc": "Personal operativo para eventos · apoyo en montaje de stands · producción y soporte en recintos",
       "services.s3.title": "LOGISTICS CREW",
-      "services.s3.desc": "Carga · descarga · preparación · movimiento",
+      "services.s3.desc": "Carga y descarga · manipulación de material · preparación en obra y logística de montaje",
       "services.s4.title": "PROJECT CREW",
-      "services.s4.desc": "Equipos adaptados a cada proyecto",
+      "services.s4.desc": "Equipos dedicados de instaladores adaptados al alcance técnico, plazos y requerimientos de cada proyecto",
       "services.s5.title": "ROLLOUT CREW",
-      "services.s5.desc": "Implantación en múltiples localizaciones",
+      "services.s5.desc": "Implantaciones multi-tienda · rollouts de retail · despliegue coordinado en múltiples ubicaciones",
 
       "sectors.label": "Ámbitos",
       "sectors.title": "Dónde Trabajamos",
       "sectors.retail.title": "Retail",
-      "sectors.retail.desc": "Tiendas · Implantaciones · Mobiliario comercial",
+      "sectors.retail.desc": "Tiendas insignia · rollouts de retail · mobiliario comercial y shopfitting",
       "sectors.exhibitions.title": "Ferias y Stands",
-      "sectors.exhibitions.desc": "Stands · Ferias · Congresos",
+      "sectors.exhibitions.desc": "Montaje de stands para ferias · congresos · montaje y desmontaje en Fira Barcelona y recintos europeos",
       "sectors.events.title": "Eventos",
-      "sectors.events.desc": "Eventos corporativos · Marca · Producción",
-      "sectors.events.note": "NAROMOUNT proporciona personal operativo y equipos de montaje para proyectos de eventos.",
+      "sectors.events.desc": "Convenciones corporativas · pop-ups de marca · apoyo operativo y producción de eventos",
+      "sectors.events.note": "NAROMOUNT proporciona personal operativo y equipos especializados de montaje para eventos y ferias.",
       "sectors.spaces.title": "Espacios Comerciales",
-      "sectors.spaces.desc": "Showrooms · Oficinas · Espacios comerciales",
+      "sectors.spaces.desc": "Showrooms · sedes corporativas · equipamiento comercial y reformas de interiores",
       "sectors.badge": "Cobertura en Proyectos Europeos",
 
       "why.label": "Ejecución",
@@ -191,10 +191,10 @@
 
       "why.scope.baseTitle": "Base Operativa",
       "why.scope.baseText": "Barcelona · España",
-      "why.scope.baseDesc": "Mesa de coordinación y centro de planificación para programación de equipos y logística.",
+      "why.scope.baseDesc": "Mesa de coordinación en Barcelona para programación de equipos de montaje, logística y despliegue.",
       "why.scope.reachTitle": "Alcance Geográfico",
       "why.scope.reachText": "Barcelona · España · Europa",
-      "why.scope.reachDesc": "Desplazamiento a recintos de España y Europa en función del proyecto, logística y presupuesto. Coordinación directa desde Barcelona. Sin infraestructura permanente en el extranjero.",
+      "why.scope.reachDesc": "Despliegue operativo de equipos en Cataluña, toda España y principales recintos feriales y centros comerciales de Europa. Coordinación directa desde Barcelona sin costes fijos en destino.",
 
       "final.title": "¿Necesitas un equipo?",
       "final.subtitle": "Cuéntanos qué necesitas, dónde y cuándo.",
@@ -289,13 +289,21 @@
       }
     });
 
-    // Update document title & meta description
+    // Update document title, meta description & social metadata
     if (i18nData[lang]["meta.title"]) {
       document.title = i18nData[lang]["meta.title"];
+      const ogTitle = document.querySelector('meta[property="og:title"]');
+      if (ogTitle) ogTitle.setAttribute('content', i18nData[lang]["meta.title"]);
+      const twitterTitle = document.querySelector('meta[name="twitter:title"]');
+      if (twitterTitle) twitterTitle.setAttribute('content', i18nData[lang]["meta.title"]);
     }
-    const metaDesc = document.querySelector('meta[name="description"]');
-    if (metaDesc && i18nData[lang]["meta.description"]) {
-      metaDesc.setAttribute('content', i18nData[lang]["meta.description"]);
+    if (i18nData[lang]["meta.description"]) {
+      const metaDesc = document.querySelector('meta[name="description"]');
+      if (metaDesc) metaDesc.setAttribute('content', i18nData[lang]["meta.description"]);
+      const ogDesc = document.querySelector('meta[property="og:description"]');
+      if (ogDesc) ogDesc.setAttribute('content', i18nData[lang]["meta.description"]);
+      const twitterDesc = document.querySelector('meta[name="twitter:description"]');
+      if (twitterDesc) twitterDesc.setAttribute('content', i18nData[lang]["meta.description"]);
     }
 
     // Update feedback message if currently displayed
