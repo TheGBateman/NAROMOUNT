@@ -374,9 +374,21 @@
       const location = (document.getElementById('req-location')?.value || '').trim();
       const message = (document.getElementById('req-message')?.value || '').trim();
 
-      // Construct mailto parameters
-      const subject = encodeURIComponent(`NAROMOUNT Team Request: ${service} — ${name}`);
-      const bodyLines = [
+      // Construct mailto parameters according to active page language
+      const isEs = currentLang === 'es';
+      const subject = encodeURIComponent(isEs ? `Solicitud de Equipo NAROMOUNT: ${service} — ${name}` : `NAROMOUNT Team Request: ${service} — ${name}`);
+      const bodyLines = isEs ? [
+        `NAROMOUNT — SOLICITUD DE PROYECTO`,
+        `========================================`,
+        `CLIENTE / EMPRESA: ${name}`,
+        `CORREO ELECTRÓNICO: ${email}`,
+        `TELÉFONO: ${phone || 'No especificado'}`,
+        `EQUIPO / SERVICIO REQUERIDO: ${service}`,
+        `LUGAR Y FECHAS: ${location}`,
+        `========================================`,
+        `DETALLES DEL PROYECTO Y ALCANCE:`,
+        message || 'Sin notas adicionales de alcance.'
+      ] : [
         `NAROMOUNT — PROJECT REQUEST`,
         `========================================`,
         `CLIENT / COMPANY: ${name}`,
@@ -396,7 +408,6 @@
 
       // Render visible confirmation & fallback card
       feedback.classList.add('is-visible');
-      const isEs = currentLang === 'es';
       feedback.innerHTML = `
         <strong class="feedback-title-strong" style="display:block; font-size: 1.05rem; margin-bottom: 0.35rem;">${i18nData[currentLang]["form.feedbackTitle"]}</strong>
         <p class="feedback-text-p" style="margin: 0.35rem 0 1.25rem; font-size: 0.9rem; line-height: 1.5; color: var(--color-grey-200);">${i18nData[currentLang]["form.feedbackText"]}</p>
@@ -414,19 +425,22 @@
   // --- Language Selector Listener ---
   function initLanguageSelector() {
     document.querySelectorAll('.lang-btn').forEach(btn => {
-      btn.addEventListener('click', function () {
-        const lang = this.getAttribute('data-lang');
-        applyLanguage(lang);
-      });
+      if (btn.tagName === 'BUTTON') {
+        btn.addEventListener('click', function () {
+          const lang = this.getAttribute('data-lang');
+          if (lang) applyLanguage(lang);
+        });
+      }
     });
   }
 
   // --- Initialize on DOM ready ---
   document.addEventListener('DOMContentLoaded', function () {
+    const docLang = (document.documentElement.lang || 'en').toLowerCase().startsWith('es') ? 'es' : 'en';
+    currentLang = docLang;
     initLanguageSelector();
     initMobileMenu();
     initRequestForm();
-    applyLanguage('en');
   });
 
 })();
