@@ -13,4 +13,20 @@
     <xhtml:link rel="alternate" hreflang="es" href="https://naromount.com/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://naromount.com/"/>
   </url>
+  <url>
+    <loc>https://naromount.com/es/montaje-ferias-exposiciones/</loc>
+  </url>
+  <url>
+    <loc>https://naromount.com/es/montaje-mobiliario-comercial/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://naromount.com/es/montaje-mobiliario-comercial/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://naromount.com/en/retail-installation/"/>
+  </url>
+  <url>
+    <loc>https://naromount.com/es/eventos-personal-montaje/</loc>
+  </url>
+  <url>
+    <loc>https://naromount.com/en/retail-installation/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://naromount.com/en/retail-installation/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://naromount.com/es/montaje-mobiliario-comercial/"/>
+  </url>
 </urlset>
